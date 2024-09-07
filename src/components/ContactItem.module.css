@@ -1,0 +1,62 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  color: #6b6b6b;
+  padding: 15px; 
+  margin-bottom: 15px; 
+  border-radius: 10px;
+  position: relative;
+  width: 100%; 
+}
+
+.item p {
+  margin: 0;
+  flex: 1;
+  text-align: center;
+  padding: 0 20px; 
+}
+
+.item .email {
+  position: relative;
+  flex: 2;
+}
+
+.item .email span {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.3rem;
+  background-color: #fff;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+}
+
+.item .name, .item .lastName, .item .phone {
+  flex: 1;
+  text-align: center;
+  padding: 0 20px; 
+}
+
+.item button {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .1s all ease-in-out;
+}
+
+.item button:hover {
+  font-size: 1.5rem;
+}
+
+.actions {
+  display: flex;
+  gap: 10px; 
+}
